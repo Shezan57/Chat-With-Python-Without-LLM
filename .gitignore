@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.pkl
+*.model
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE   
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model files (optional - uncomment if you want to exclude large model files)
+*.pkl
+
+# Training data
+train/
+
+# Logs
+*.log
+# Large files that should not be committed to Git
+chatbot_model.pkl
+train/
+enhanced_chatbot_model.pkl
+*.npy
